@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/transfer.dir/transferclient.c.o CMakeFiles/transfer.dir/transferserver.c.o  -o transfer 

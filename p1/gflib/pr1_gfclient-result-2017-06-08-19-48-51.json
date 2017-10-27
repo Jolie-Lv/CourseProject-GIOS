@@ -1,0 +1,101 @@
+{
+    "tests": [
+        {
+            "output": {
+                "client_returncode": 0,
+                "passfail": "passed",
+                "client_console": "gcc -c -o gfclient.o -Wall --std=gnu99 -g3 -Wno-format-security -fsanitize=address -fno-omit-frame-pointer -Wno-format-security gfclient.c\ngcc -c -o bvtgfclient_main.o -Wall --std=gnu99 -g3 -Wno-format-security -fsanitize=address -fno-omit-frame-pointer -Wno-format-security bvtgfclient_main.c\ngcc -o bvtgfclient_main -Wall --std=gnu99 -g3 -Wno-format-security -fsanitize=address -fno-omit-frame-pointer -Wno-format-security gfclient.o bvtgfclient_main.o -lpthread -static-libasan\n"
+            },
+            "traceback": "",
+            "description": "Tests that the client compiles"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that the client properly handles prematurely closed connection during transfer of the message body"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that the client properly handles prematurely closed connection during transfer of the message header"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that the client properly handles an ERROR response"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that the client properly handles a FILE_NOT_FOUND response"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that the client properly handles an invalid header"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that valgrind shows no memory leaks"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that the client properly handles an OK response and long message (more than 5MB) sent in varying size chunks between 64 bytes and 64KB"
+        },
+        {
+            "output": {
+                "client_returncode": 0,
+                "server_console": "",
+                "passfail": "passed",
+                "server_returncode": null,
+                "client_console": ""
+            },
+            "traceback": "",
+            "description": "Tests that the client properly handles an OK response and a short message (less than 1000 bytes)"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+/home/sheldon/gios-summer2017-pr1/gflib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sheldon/gios-summer2017-pr1/gflib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sheldon/gios-summer2017-pr1/gflib/cmake-build-debug/CMakeFiles/gflib.dir

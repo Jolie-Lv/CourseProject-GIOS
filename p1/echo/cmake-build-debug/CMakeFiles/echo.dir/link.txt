@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/echo.dir/echoclient.c.o CMakeFiles/echo.dir/echoserver.c.o  -o echo 
