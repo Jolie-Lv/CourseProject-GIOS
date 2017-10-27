@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/server.dir/handle_with_cache.c.o CMakeFiles/server.dir/handle_with_curl.c.o CMakeFiles/server.dir/handle_with_file.c.o CMakeFiles/server.dir/steque.c.o CMakeFiles/server.dir/webproxy.c.o ../gfserver.o ../gfserver_noasan.o  -o server 
