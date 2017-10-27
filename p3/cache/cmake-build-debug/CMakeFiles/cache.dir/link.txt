@@ -1,1 +1,0 @@
-/usr/bin/cc  -g   CMakeFiles/cache.dir/handle_with_cache.c.o CMakeFiles/cache.dir/handle_with_curl.c.o CMakeFiles/cache.dir/handle_with_file.c.o CMakeFiles/cache.dir/shm_channel.c.o CMakeFiles/cache.dir/simplecache.c.o CMakeFiles/cache.dir/simplecached.c.o CMakeFiles/cache.dir/steque.c.o CMakeFiles/cache.dir/webproxy.c.o ../gfserver.o ../gfserver_noasan.o  -o cache 

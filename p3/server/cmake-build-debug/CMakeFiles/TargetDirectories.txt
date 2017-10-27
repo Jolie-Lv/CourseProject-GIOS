@@ -1,3 +1,0 @@
-/home/sheldon/gios-pr3/server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sheldon/gios-pr3/server/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sheldon/gios-pr3/server/cmake-build-debug/CMakeFiles/server.dir
